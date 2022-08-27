@@ -77,9 +77,15 @@ class Stock_Data(object):
                 '''
                 data = yf.download(tickers = str(Ticker), period = "2y", interval = "1d")
                 df = pd.DataFrame(data)
-                # If the user wants to run the model to have a General Prediction of stocks with data of the last 2 years , uncomment the 2 lines below
-                # data = yf.download(tickers = str(Ticker),period = "2y", interval = "1d") #period = "2y", interval = "1d"
-                # df = pd.DataFrame(data)
+                            
+                # Prediction in the data in which we evaluate the model
+                # If the user wants to run the model with the data that it has been evaluated, uncomment the 2 lines below 
+                # Setting the start = 2022-08-26 and end = 2020-08-26 Yahoo Finance will return data from 25-8-2020 to 25-8-2022 (2 years period).
+                # In this period's data our model has been evaluated.
+
+                #data = yf.download(tickers = str(Ticker),end="2022-08-26", start="2020-08-26") 
+                #df = pd.DataFrame(data)
+                
                 return df
                 
 
