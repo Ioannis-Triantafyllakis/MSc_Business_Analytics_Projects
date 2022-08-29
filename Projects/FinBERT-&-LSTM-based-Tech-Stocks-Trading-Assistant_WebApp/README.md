@@ -43,4 +43,17 @@ Many recent positive news may lead to stock price increase which means that the 
 
 ## LSTM model for 7 days stock price prediction (2nd tool)
 The second tool is an LSTM model that uses historical data of adjusted stock prices of a chosen stock (data for last 2 years), and predicts the stock price for the next 7 days. The output of these predictions can be seen in a time-series plot (lower-right side of dashboard). </br>
-It must be noted that the data are acquired by **yfinance** library [yfinance Documentation](https://pypi.org/project/yfinance/) that gets data from Yahoo's API. </br>
+</br>
+The data are acquired by **yfinance** library [yfinance Documentation](https://pypi.org/project/yfinance/) that gets data from Yahoo's API. </br>
+It must be noted that **yfinance** returns us the following fields: </br>
+1. **Date**: The date in which the record corresponds to
+2. **Open**: The stock's opening price of the day
+3. **High**: The stock's highest price of the day
+4. **Low**: The stock's lowest price of the day
+5. **Close**: The stock's closing price of the day
+6. **Adj Close**: The stock's closing price of the day, **adjusted to stock's splits, dividends, and other corporate actions** </br>
+
+</br>
+In our analysis, we will use the "Adj Close" price only. </br>
+It is notable that no model weights need to be saved, and in each stock selection from the user, the data acquistion and model training happen **on the go**. </br>
+At last, some model arguments (like batch_size, etc.) are manually set for each stock specifically, in order to ensure as high **R-squared** scores as possible.
