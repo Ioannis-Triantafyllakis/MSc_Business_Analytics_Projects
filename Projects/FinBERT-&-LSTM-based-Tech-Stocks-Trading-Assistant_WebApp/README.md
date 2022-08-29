@@ -69,4 +69,28 @@ At last, some model arguments (like batch_size, etc.) are manually set for each 
 
 ## Technical Analysis Methods (3rd tool) 
 
-test
+This set of methods are out of the scope of the course but they were added because we believe that they can be used supplementary with the previous 2 tools. </br>
+Technical Analysis Methods are **Statistical Methods** for stock trading which usually use price rolling averages and standard deviations, in order to return their outlook (e.g. Buy, or Hold, or Sell). These methods usually belong to one of the following trading timeframes:
+* **Short term trading** (Buying and Selling Stocks within hours,minutes or even seconds)
+* **Medium term trading** (Buying and Selling Stocks within days or weeks)
+* **Long term trading** (Buying and Selling Stocks within months)
+</br>
+To use the following methods, we have to get the realtime stock price when the NYSE and NASDAQ are open. To do so we "scrap" the current price from www.marketwatch.com </br>
+
+### 1st method: Bollinger Bands of 20 days and 2 standard deviations (1st method)
+</br>
+
+This method relies on 3 lines: 
+* the 1st one is the 20 day rolling average of the stock price
+* the 2nd one is the 20 day rolling average + 2 standard deviations (Upper Limit)
+* the 3rd one is the 20 day rolling average - 2 standard deviation (Lower Limit) </br>
+
+and is a "Medium-term" trading method (days or weeks)
+
+`Interpretations for traders`
+
+* When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
+* When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
+* When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
+* When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)
+
