@@ -158,3 +158,7 @@ MACD is a trend following momentum indicator based on 2 lines: </br>
 * When **White Line** > **Red Line** and the former crossed the latter from upwards today or yesterday, the stock's outlook is **Downtrend and Sell** (which is a 👎 **Sell Signal**)
 
 * When **White Line** < **Red Line** and the former crossed the latter from downwards today or yesterday, the stock's outlook is **Uptrend and Buy** (which is a 👍 **Buy signal**)
+
+*In the following figure, we can see that Paypal's stock has a "Downtrend and No Signal" outlook currently, according to the MACD:*
+![MACD](MACD_example.PNG "MACD example") </br>
+</br>
