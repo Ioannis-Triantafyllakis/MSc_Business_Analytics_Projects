@@ -92,7 +92,8 @@ and is a "Medium-term" trading method (days or weeks)
 * When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
 * When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
 * When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
-* When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)
-
+* When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)</br>
+ 
+In the following figure, we can see that Apple's stock is considered as a "Buy" currently, according to the Bollinger Bands of 20 days and 2 st. deviations,
 ![Bollinger Bands example 1](BB_example_1.PNG "Bollinger Bands example 1") </br>
 </br>
