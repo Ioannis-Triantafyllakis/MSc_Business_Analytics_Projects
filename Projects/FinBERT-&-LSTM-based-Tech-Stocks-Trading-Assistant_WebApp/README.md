@@ -143,4 +143,4 @@ and is a "Long-term" trading method (weeks)
 
 ### 4th method: Moving Average Convergence Divergence (MACD)
 </br>
-test
+MACD is a trend following momentum indicator 
