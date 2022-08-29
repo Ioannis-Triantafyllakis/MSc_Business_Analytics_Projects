@@ -62,6 +62,11 @@ It is notable that no model weights need to be saved, and in each stock selectio
 At last, some model arguments (like batch_size, etc.) are manually set for each stock specifically, in order to ensure as high **R-squared** scores as possible.</br>
 </br>
 `Interpretation for traders` </br>
-</br>
+
 * Upwards projection could be a potential :+1: **Buy Signal** (especially for large R-squared scores, which can be seen in the logs) </br>
 * Downwards projectios could be a potential :-1: **Sell Signal** (especially for large R-squared scores, which can be seen in the logs) </br>
+</br>
+
+## Technical Analysis Methods (3rd tool) 
+
+test
