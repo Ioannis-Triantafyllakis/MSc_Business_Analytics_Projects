@@ -137,6 +137,6 @@ and is a "Long-term" trading method (weeks)
 * When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
 * When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)</br>
  
-*In the following figure, we can see that MongoDB's stock is considered as a "Buy" currently, according to the Bollinger Bands of 50 days and 3 st. deviations:*
+*In the following figure, we can see that MongoDB's stock is considered as a "Sell" currently, according to the Bollinger Bands of 50 days and 3 st. deviations:*
 ![Bollinger Bands example 3](BB_example_3.PNG "Bollinger Bands example 3") </br>
 </br>
