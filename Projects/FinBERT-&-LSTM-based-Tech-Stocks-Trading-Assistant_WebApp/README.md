@@ -140,3 +140,7 @@ and is a "Long-term" trading method (weeks)
 *In the following figure, we can see that MongoDB's stock is considered as a "Sell" currently, according to the Bollinger Bands of 50 days and 3 st. deviations:*
 ![Bollinger Bands example 3](BB_example_3.PNG "Bollinger Bands example 3") </br>
 </br>
+
+### 4th method: Moving Average Convergence Divergence (MACD)
+</br>
+test
