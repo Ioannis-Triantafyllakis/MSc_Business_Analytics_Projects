@@ -55,5 +55,7 @@ It must be noted that **yfinance** returns us the following fields: </br>
 
 </br>
 In our analysis, we will use the "Adj Close" price only. </br>
+
 It is notable that no model weights need to be saved, and in each stock selection from the user, the data acquistion and model training happen **on the go**. </br>
+
 At last, some model arguments (like batch_size, etc.) are manually set for each stock specifically, in order to ensure as high **R-squared** scores as possible.
