@@ -94,3 +94,5 @@ and is a "Medium-term" trading method (days or weeks)
 * When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
 * When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)
 
+![Bollinger Bands example 1](BB_example_1.PNG "Bollinger Bands example 1") </br>
+</br>
