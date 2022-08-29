@@ -143,4 +143,17 @@ and is a "Long-term" trading method (weeks)
 
 ### 4th method: Moving Average Convergence Divergence (MACD)
 </br>
-MACD is a trend following momentum indicator 
+MACD is a trend following momentum indicator based on 2 lines:
+* The 1st one is the difference between the 26-day exponential moving average (EMA) and the 12-day EMA (usually called **White Line**)
+* The 2nd one is the 9-day EMA (usually called **Red Line**) </br>
+
+
+`Interpretations for traders`
+
+* When **White Line** > **Red Line** the stock is considered to have a **Downtrend and No Signal** outlook (which is a 👎 **Sell Signal**)
+
+* When **White Line** < **Red Line** the stock is considered to have a **Uptrend and No Signal** (which is a 👍 **Buy signal**)
+
+* When **White Line** > **Red Line** and the former crossed the latter from upwards today or yesterday, the stock's outlook is **Downtrend and Sell** (which is a 👎 **Sell Signal**)
+
+* When **White Line** < **Red Line** and the former crossed the latter from downwards today or yesterday, the stock's outlook is **Uptrend and Buy** (which is a 👍 **Buy signal**)
