@@ -115,6 +115,28 @@ and is a "Short-term" trading method (hours, minutes or even seconds)
 * When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
 * When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)</br>
  
-*In the following figure, we can see that Lyft's stock is considered as a "Sell" currently, according to the Bollinger Bands of 10 days and 1.5 st. deviations:*
-![Bollinger Bands example 1](BB_example_2.PNG "Bollinger Bands example 1") </br>
+*In the following figure, we can see that Lyft's stock is considered as a "Buy" currently, according to the Bollinger Bands of 10 days and 1.5 st. deviations:*
+![Bollinger Bands example 2](BB_example_2.PNG "Bollinger Bands example 2") </br>
+</br>
+
+
+### 3rd method: Bollinger Bands of 50 days and 3 standard deviations 
+</br>
+
+This method relies on 3 lines: 
+* the 1st one is the 50 day rolling average of the stock price
+* the 2nd one is the 50 day rolling average +3 standard deviations (Upper Limit)
+* the 3rd one is the 50 day rolling average -3 standard deviation (Lower Limit) </br>
+
+and is a "Long-term" trading method (weeks)
+
+`Interpretations for traders`
+
+* When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
+* When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
+* When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
+* When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)</br>
+ 
+*In the following figure, we can see that MongoDB's stock is considered as a "Buy" currently, according to the Bollinger Bands of 50 days and 3 st. deviations:*
+![Bollinger Bands example 3](BB_example_3.PNG "Bollinger Bands example 3") </br>
 </br>
