@@ -27,6 +27,7 @@ This dataset includes 4840 headlines-like sentences about financial news, labele
 After training the model, we save the weights in **.bin** file and reuse them each time we want to classify a headline. After the 17 "scraped" headlines are classified, they "get" a score of either *+100, 0, or -100*, and the rolling average of them is "printed" in the lineplot.</br>
 When this line is mostly "negative" (below 0), we expect that most of the last articles have a negative sentiment, when they are mostly positive (above 0), we expect that there are many articles with positive sentiment, while when the line is close to 0, or revolves around it with no specific trend, we expect mixed outlook articles.</br>
 </br>
+
 `Interpretation for traders` </br>
 </br>
 Many recent negative news may lead to stock price decline, which means that the stock now is cheaper than it was recently, and the explanations are the following:</br>
@@ -58,4 +59,9 @@ In our analysis, we will use the "Adj Close" price only. </br>
 
 It is notable that no model weights need to be saved, and in each stock selection from the user, the data acquistion and model training happen **on the go**. </br>
 
-At last, some model arguments (like batch_size, etc.) are manually set for each stock specifically, in order to ensure as high **R-squared** scores as possible.
+At last, some model arguments (like batch_size, etc.) are manually set for each stock specifically, in order to ensure as high **R-squared** scores as possible.</br>
+</br>
+`Interpretation for traders` </br>
+</br>
+* Upwards projection could be a potential :+1: **Buy Signal** (especially for large R-squared scores, which can be seen in the logs) </br>
+* Downwards projectios could be a potential :-1: **Sell Signal** (especially for large R-squared scores, which can be seen in the logs) </br>
