@@ -144,6 +144,7 @@ and is a "Long-term" trading method (weeks)
 ### 4th method: Moving Average Convergence Divergence (MACD)
 </br>
 MACD is a trend following momentum indicator based on 2 lines: </br>
+
 * The 1st one is the difference between the 26-day exponential moving average (EMA) and the 12-day EMA (usually called **White Line**) </br>
 * The 2nd one is the 9-day EMA (usually called **Red Line**) </br>
 
