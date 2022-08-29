@@ -165,3 +165,10 @@ MACD is a trend following momentum indicator based on 2 lines: </br>
 
 ## Final Thoughts
 None of the above methods is used alone for stocks trading, so we expect that using them all together when deciding the next trade is the best solution. After manually testing this simple, yet intuitive web app, we concluded that it can be valuable mostly when all 3 tools "agree" on their outlooks.
+
+## Team Members
+
+Ilias Dimos (f2822102) [GitHub Profile](https://github.com/ildim9) </br>
+Charilaos Petrakogiannis (f2822112) [GitHub Profile](https://github.com/CharilaosPetrakogiannis) </br>
+Ioannis Triantafyllakis (f2822115) [GitHub Profile](https://github.com/Ioannis-Triantafyllakis) </br>
+Nikolaos Tsekas (f2822116) [GitHub Profile](https://github.com/nicktsekas) </br>
