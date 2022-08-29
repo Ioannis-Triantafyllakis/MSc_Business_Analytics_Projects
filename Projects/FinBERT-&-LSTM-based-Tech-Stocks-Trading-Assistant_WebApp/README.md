@@ -87,7 +87,7 @@ This method relies on 3 lines:
 
 and is a "Medium-term" trading method (days or weeks)
 
-`Interpretations for traders`
+`Interpretation for traders`
 
 * When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
 * When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
@@ -108,7 +108,7 @@ This method relies on 3 lines:
 
 and is a "Short-term" trading method (hours, minutes or even seconds)
 
-`Interpretations for traders`
+`Interpretation for traders`
 
 * When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
 * When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
@@ -130,7 +130,7 @@ This method relies on 3 lines:
 
 and is a "Long-term" trading method (weeks)
 
-`Interpretations for traders`
+`Interpretation for traders`
 
 * When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
 * When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
@@ -149,7 +149,7 @@ MACD is a trend following momentum indicator based on 2 lines: </br>
 * The 2nd one is the 9-day EMA (usually called **Red Line**) </br>
 
 
-`Interpretations for traders`
+`Interpretation for traders`
 
 * When **White Line** > **Red Line** the stock is considered to have a **Downtrend and No Signal** outlook (which is a 👎 **Sell Signal**)
 
