@@ -77,7 +77,7 @@ Technical Analysis Methods are **Statistical Methods** for stock trading which u
 </br>
 To use the following methods, we have to get the realtime stock price when the NYSE and NASDAQ are open. To do so we "scrap" the current price from www.marketwatch.com </br>
 
-### 1st method: Bollinger Bands of 20 days and 2 standard deviations (1st method)
+### 1st method: Bollinger Bands of 20 days and 2 standard deviations
 </br>
 
 This method relies on 3 lines: 
@@ -94,6 +94,27 @@ and is a "Medium-term" trading method (days or weeks)
 * When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
 * When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)</br>
  
-In the following figure, we can see that Apple's stock is considered as a "Buy" currently, according to the Bollinger Bands of 20 days and 2 st. deviations,
+*In the following figure, we can see that Apple's stock is considered as a "Buy" currently, according to the Bollinger Bands of 20 days and 2 st. deviations:*
 ![Bollinger Bands example 1](BB_example_1.PNG "Bollinger Bands example 1") </br>
+</br>
+
+### 2nd method: Bollinger Bands of 10 days and 1.5 standard deviations 
+</br>
+
+This method relies on 3 lines: 
+* the 1st one is the 10 day rolling average of the stock price
+* the 2nd one is the 10 day rolling average +1.5 standard deviations (Upper Limit)
+* the 3rd one is the 10 day rolling average -1.5 standard deviation (Lower Limit) </br>
+
+and is a "Short-term" trading method (hours, minutes or even seconds)
+
+`Interpretations for traders`
+
+* When a stocks current price is between the rolling avg. and the Upper Limit, it is considered as **Overbought** (which is a 👎 **Sell Signal**)
+* When a stocks current price is between the rolling avg and the Lower Limit it is considered as **Oversold** (which is a 👍 **Buy signal**)
+* When a stocks current price is equal to the rolling average, it is considered as neither **Overbought** or **Oversold**, (which is a :fist: **Hold Signal**)
+* When a stocks current price is higher than the upper limit or lower than the lower limit, it is considered as **Unusuall Event** (which signals :exclamation: **Caution**)</br>
+ 
+*In the following figure, we can see that Lyft's stock is considered as a "Sell" currently, according to the Bollinger Bands of 10 days and 1.5 st. deviations:*
+![Bollinger Bands example 1](BB_example_2.PNG "Bollinger Bands example 1") </br>
 </br>
