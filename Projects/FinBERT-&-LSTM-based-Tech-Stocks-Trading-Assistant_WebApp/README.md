@@ -42,4 +42,5 @@ Many recent positive news may lead to stock price increase which means that the 
 </br>
 
 ## LSTM model for 7 days stock price prediction (2nd tool)
-The second tool is an LSTM model that uses historical data of adjusted stock prices of a chosen stocks (data for last 2 years), and predicts the stock price for the next 7 days. The output of these predictions can be seen in a time-series plot.
+The second tool is an LSTM model that uses historical data of adjusted stock prices of a chosen stock (data for last 2 years), and predicts the stock price for the next 7 days. The output of these predictions can be seen in a time-series plot (lower-right side of dashboard). </br>
+It must be noted that the data are acquired by **yfinance** library [yfinance Documentation](https://pypi.org/project/yfinance/) that gets data from Yahoo's API. </br>
