@@ -452,7 +452,23 @@ class Models(object):
             yanchor="bottom",
             y=1.02,
             xanchor="right",
-            x=1
-            ))
+            x=1),
+            annotations = [dict(x=0.5,
+                                y=0, 
+                                xref='paper',
+                                yref='paper',
+                                text="Current In Sample R- Squared : " + str(r_squared_score*100) + " % \n",
+                                showarrow = False)],
+            xaxis=dict(showgrid=False),
+            yaxis=dict(showgrid=False)
+            
+
+                        )
+        fig.add_annotation(x=0.5, 
+                           y=0.05,
+                           xref='paper',
+                           yref='paper',
+                           text="Current In Sample Root Mean Square Error : " + str(round(rmse,2)) + " % ",
+                           showarrow=False)
         
         return fig
