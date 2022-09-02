@@ -338,7 +338,8 @@ class Models(object):
             predictions = model_lstm.predict(x_test)
             predictions = scaler.inverse_transform(predictions)
             #rmse = np.sqrt(np.mean(((predictions - y_test) ** 2)))
-            global r_squared_score 
+            global r_squared_score
+            global rmse
             r_squared_score = round(r2_score(y_test, predictions),2)
             #print('Rmse Score: ', round(rmse),2)
             print('R2 Score: ', r_squared_score)
