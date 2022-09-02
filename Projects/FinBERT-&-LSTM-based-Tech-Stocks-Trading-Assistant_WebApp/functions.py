@@ -438,13 +438,19 @@ class Models(object):
             mode = 'lines',
             name = '7-day Prediction',
             line=dict(width=1,color="#EE3B3B"))
+        plot_3 = go.Scatter(
+            x = finaldfPredictions['Date'][:1],
+            y = finaldfPredictions['Adj Close'][:1],
+            mode = 'markers',
+            name = 'Latest Actual Closing Price',
+            line=dict(width=1))
 
         layout = go.Layout(
             title = 'Next 7 days stock price prediction of ' + str(ticker),
             xaxis = {'title' : "Date"},
             yaxis = {'title' : "Price ($)"}
         )
-        fig = go.Figure(data=[plot_1, plot_2], layout=layout)
+        fig = go.Figure(data=[plot_1, plot_2,plot_3], layout=layout)
         fig.update_layout(template='plotly_dark',autosize=True)
         fig.update_layout(legend=dict(
             orientation="h",
