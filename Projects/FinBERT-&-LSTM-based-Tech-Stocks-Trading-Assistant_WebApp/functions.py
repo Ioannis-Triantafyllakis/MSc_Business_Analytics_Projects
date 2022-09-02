@@ -337,10 +337,10 @@ class Models(object):
 
             predictions = model_lstm.predict(x_test)
             predictions = scaler.inverse_transform(predictions)
-            #rmse = np.sqrt(np.mean(((predictions - y_test) ** 2)))
             global r_squared_score
             global rmse
             r_squared_score = round(r2_score(y_test, predictions),2)
+            rmse = np.sqrt(np.mean(((predictions - y_test) ** 2)))
             #print('Rmse Score: ', round(rmse),2)
             print('R2 Score: ', r_squared_score)
 
@@ -352,8 +352,6 @@ class Models(object):
             LSTM_trainer(6, 0.2, 100,10,25, 30)
         elif ticker == 'MSFT':
             LSTM_trainer(4, 0.1, 80, 2,20, 40)
-        elif ticker == 'TSLA':
-            LSTM_trainer(5, 0.1, 120, 4,20, 25)
         elif ticker == 'AMZN':
             LSTM_trainer(6, 0.1, 120,2, 20, 25)    
         elif ticker == 'SPOT':
