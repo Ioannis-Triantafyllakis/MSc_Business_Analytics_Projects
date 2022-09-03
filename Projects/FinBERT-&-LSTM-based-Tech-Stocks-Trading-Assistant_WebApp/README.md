@@ -170,7 +170,7 @@ None of the above methods is used alone for stocks trading, so we expect that us
 To begin with , the main files are : all-data.csv, FinBERT_training.py , main.py , functions.py and the stocks.py and the fine_tuned_FinBERT folder.
 In more details : 
 1) The fine_tuned_FinBERT folder contains :
-All the weights that have been saved during the training of the model. The user by downloading the folder does not need to retrain the model. This folder can be downloaded from [her] (https://drive.google.com/file/d/1-UnJawor6s6roOU4wD_Ppdxdm4EJqRmV/view?usp=sharing) as the GitHub does not allow us to upload large files.
+All the weights that have been saved during the training of the model. The user by downloading the folder does not need to retrain the model. This folder can be downloaded from [here](https://drive.google.com/file/d/1-UnJawor6s6roOU4wD_Ppdxdm4EJqRmV/view?usp=sharing) as the GitHub does not allow us to upload large files.
 2) The stocks.py contains : 
  The necessary functions in order to acquire our data for the LSTM and the FinBERT model.
 3) The functions.py contains :
@@ -185,7 +185,7 @@ The calling of the functions from the two above mentioned files (functions.py ,s
  2) Type : streamlit run main.py 
  3) A browser window will pop up with our interactive Dashboard.
 
-*NOTE* : All the above-mentioned files along with the weights folder need to be in the same folder in order to run the project.
+**NOTE: All the above-mentioned files along with the weights folder need to be in the same folder in order to run the project.**
 
 ## Team Members
 
