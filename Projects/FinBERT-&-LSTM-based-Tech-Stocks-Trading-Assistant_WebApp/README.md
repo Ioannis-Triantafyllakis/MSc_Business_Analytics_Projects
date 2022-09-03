@@ -168,12 +168,14 @@ None of the above methods is used alone for stocks trading, so we expect that us
 
 ## How to Run the Project </br>
 To begin with , the main files are : all-data.csv, FinBERT_training.py , main.py , functions.py and the stocks.py and the fine_tuned_FinBERT folder.
+Moreover, you can check the two .ipynb files which contain the EDA and the evaluation of our models.
+
 In more details : 
 1) The fine_tuned_FinBERT folder contains :
 All the weights that have been saved during the training of the model. The user by downloading the folder does not need to retrain the model. This folder can be downloaded from [here](https://drive.google.com/file/d/1-UnJawor6s6roOU4wD_Ppdxdm4EJqRmV/view?usp=sharing) as the GitHub does not allow us to upload large files.
 2) The stocks.py contains : 
  The necessary functions in order to acquire our data for the LSTM and the FinBERT model.
-3) The functions.py contains :
+3) The functions.py contains:
  The function that creates the Bollinger plots and our two models .
 4) The FinBERT_training.py contains : 
  All functions needed to train the FinBERT model. 
