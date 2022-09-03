@@ -63,8 +63,8 @@ At last, some model arguments (like batch_size, etc.) are manually set for each 
 </br>
 `Interpretation for traders` </br>
 
-* Upwards projection could be a potential :+1: **Buy Signal** (especially for large R-squared scores, which can be seen in the logs) </br>
-* Downwards projectios could be a potential :-1: **Sell Signal** (especially for large R-squared scores, which can be seen in the logs) </br>
+* Upwards projection could be a potential :+1: **Buy Signal** (especially for large R-squared scores, which can be seen in the plot) </br>
+* Downwards projectios could be a potential :-1: **Sell Signal** (especially for large R-squared scores, which can be seen in the plot) </br>
 </br>
 
 ## Technical Analysis Methods (3rd tool) 
