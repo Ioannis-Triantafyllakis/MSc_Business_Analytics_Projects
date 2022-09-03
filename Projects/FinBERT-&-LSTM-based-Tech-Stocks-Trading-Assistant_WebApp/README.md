@@ -171,17 +171,17 @@ To begin with , the main files are : all-data.csv, FinBERT_training.py , main.py
 Moreover, you can check the two .ipynb files which contain the EDA and the evaluation of our models.
 
 In more details : 
-1) The fine_tuned_FinBERT folder contains :
+1) The __fine_tuned_FinBERT folder__ contains :
 All the weights that have been saved during the training of the model. The user by downloading the folder does not need to retrain the model. This folder can be downloaded from [here](https://drive.google.com/file/d/1-UnJawor6s6roOU4wD_Ppdxdm4EJqRmV/view?usp=sharing) as the GitHub does not allow us to upload large files.
-2) The stocks.py contains : 
+2) The __stocks.py__ contains : 
  The necessary functions in order to acquire our data for the LSTM and the FinBERT model.
-3) The functions.py contains:
+3) The __functions.py__ contains:
  The function that creates the Bollinger plots and our two models .
-4) The FinBERT_training.py contains : 
+4) The __FinBERT_training.py__ contains : 
  All functions needed to train the FinBERT model. 
-5) The all-data.csv contains : 
+5) The __all-data.csv__ contains : 
  The data that has been used for the training of the FinBERT model (Financial Prasebank dataset) .
-6) The main.py contains : 
+6) The __main.py__ contains : 
 The calling of the functions from the two above mentioned files (functions.py ,stocks.py) and the creation of the web app application (streamlit).In order to enable the application the user has to perform the below procedure:
 * Open the terminal
 * Type : streamlit run main.py
