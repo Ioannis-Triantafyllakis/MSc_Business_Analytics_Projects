@@ -166,6 +166,27 @@ MACD is a trend following momentum indicator based on 2 lines: </br>
 ## Final Thoughts
 None of the above methods is used alone for stocks trading, so we expect that using them all together when deciding the next trade is the best solution. After manually testing this simple, yet intuitive web app, we concluded that it can be valuable mostly when all 3 tools "agree" on their outlooks.
 
+## How to Run the Project </br>
+To begin with , the main files are : all-data.csv, FinBERT_training.py , main.py , functions.py and the stocks.py and the fine_tuned_FinBERT folder.
+In more details : 
+1) The fine_tuned_FinBERT folder contains :
+All the weights that have been saved during the training of the model. The user by downloading the folder does not need to retrain the model. This folder can be downloaded from [her] (https://drive.google.com/file/d/1-UnJawor6s6roOU4wD_Ppdxdm4EJqRmV/view?usp=sharing) as the GitHub does not allow us to upload large files.
+2) The stocks.py contains : 
+ The necessary functions in order to acquire our data for the LSTM and the FinBERT model.
+3) The functions.py contains :
+ The function that creates the Bollinger plots and our two models .
+4) The FinBERT_training.py contains : 
+ All functions needed to train the FinBERT model. 
+5) The all-data.csv contains : 
+ The data that has been used for the training of the FinBERT model (Financial Prasebank dataset) .
+6) The main.py contains : 
+The calling of the functions from the two above mentioned files (functions.py ,stocks.py) and the creation of the web app application (streamlit).In order to enable the application the user has to perform the below procedure:
+ 1) Open the terminal 
+ 2) Type : streamlit run main.py 
+ 3) A browser window will pop up with our interactive Dashboard.
+
+*NOTE* : All the above-mentioned files along with the weights folder need to be in the same folder in order to run the project.
+
 ## Team Members
 
 Ilias Dimos (f2822102) [GitHub Profile](https://github.com/ildim9) </br>
