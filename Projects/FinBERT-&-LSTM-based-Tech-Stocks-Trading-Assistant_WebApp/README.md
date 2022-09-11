@@ -183,7 +183,7 @@ All the weights that have been saved during the training of the model. The user 
  The data that has been used for the training of the FinBERT model (Financial Prasebank dataset) .
 6) The __main.py__ contains : 
 The calling of the functions from the two above mentioned files (functions.py ,stocks.py) and the creation of the web app application (streamlit).In order to enable the application the user has to perform the below procedure:
-* Open the terminal
+* Execute the main.py in an editor
 * Type : streamlit run main.py
 * A browser window will pop up with our interactive Dashboard.
 
