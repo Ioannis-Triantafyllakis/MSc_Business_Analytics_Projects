@@ -186,6 +186,7 @@ The calling of the functions from the two above mentioned files (functions.py ,s
 * Execute the main.py in an editor
 * Type : streamlit run main.py
 * A browser window will pop up with our interactive Dashboard.
+* Or, double click the "Tech Stocks Trading Assistant" Windows Batch File.
 
 **NOTE: All the above-mentioned files along with the weights folder need to be in the same folder in order to run the project.**
 
