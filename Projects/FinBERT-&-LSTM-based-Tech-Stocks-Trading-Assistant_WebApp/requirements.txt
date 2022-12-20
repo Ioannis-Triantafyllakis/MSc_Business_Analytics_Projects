@@ -5,4 +5,5 @@ bs4
 plotly==5.6.0
 tensorflow==2.8.0
 scikit_learn==1.2.0
+matplotlib==3.5.1
 torch
