@@ -13,5 +13,5 @@ tensorflow==2.11.0
 tensorflow_gpu==2.7.0
 transformers==4.19.4
 yfinance==0.1.70
-~atplotlib==3.5.1
-~treamlit==1.10.0
+matplotlib==3.5.1
+streamlit==1.10.0
